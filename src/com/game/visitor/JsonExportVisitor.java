@@ -9,7 +9,7 @@ public class JsonExportVisitor implements GameVisitor {
     public void visit(Monster monster) {
         System.out.println("{ \"type:\": \"Monster\", \"name\": \"" + monster.getName() +
                              "\", \"Health\": " + monster.getHealth() +
-                             "\", \"Damaage\": " + monster.getDamage() + " }");
+                             "\", \"Damage\": " + monster.getDamage() + " }");
     }
 
     @Override

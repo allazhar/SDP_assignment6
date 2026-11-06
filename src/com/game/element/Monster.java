@@ -1,5 +1,7 @@
 package com.game.element;
 
+import com.game.visitor.GameVisitor;
+
 public class Monster implements GameElement{
     private final String name;
     private final int health;

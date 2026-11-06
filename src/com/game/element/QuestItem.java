@@ -1,5 +1,7 @@
 package com.game.element;
 
+import com.game.visitor.GameVisitor;
+
 public class QuestItem implements GameElement {
     private final String itemName;
     private final boolean isLegendary;

@@ -1,5 +1,7 @@
 package com.game.element;
 
+import com.game.visitor.GameVisitor;
+
 public class Chest implements GameElement{
     private final String tier;
     private final int goldAmount;
